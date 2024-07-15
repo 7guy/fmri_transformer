@@ -13,11 +13,9 @@ The output for model summary is represented below.
 TRAINING:  
   
 DATASET:   
-We load the data  local directory which contains pickle files order by ROI and subjet number. each pickle file represent the brain activity of a single subject during all movies.
+We load the data from a local directory which contains pickle files ordered by ROI and subject number. each pickle file represent the fmri brain activity of a single subject during all movies.
 We prepare the data for Train/Test using the preprocess2.py file which convert all relevant pickles into Dataloaders.
-             
-There are 14 different classes and the all classes are enumerated from 1 to 14 in label dataset.  
-batch_size =100   
+There are 14 different classes and the all classes are enumerated from 1 to 14 in label dataset.    
 seq_len= Durtion of the movie # fmri scan duraion during the movie watching   
 feature= Number of voxels # depends on the ROI we're training the model on
 Input size for training : [batch_size, seq_len, feature].     
