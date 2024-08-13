@@ -140,4 +140,4 @@ for i, subject in enumerate(subjects.keys()):
     end_idx = start_idx + 14
     subjects[subject] = corr_matrices[start_idx:end_idx]
 
-# save the relevant matrices you want as .npy files and move to the analysis on the rdm/attention on google colab notebook 
+# save the relevant matrices you want as .npy files and move to the analysis on the rdm/attention on google colab notebook (Link on the README)
