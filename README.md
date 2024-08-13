@@ -25,6 +25,10 @@ TEST RESULTS:
 you can see and compare target labels and predicted classes.  
 ![image](https://user-images.githubusercontent.com/6734818/226144528-31dea983-508c-4ee7-818f-c7a29607f242.png)       
 
+POST TEST Analysis:
+The following colab notebook contains the whole analysis we did on the test results, including the RDM vs. Attention matrices comparison
+https://colab.research.google.com/drive/1HeFDtVwhF0qpC44wAKtl_2YDHch-JrwH#scrollTo=cJftzjX1aiYL
+
 
 
 
